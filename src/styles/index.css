@@ -10,3 +10,60 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop {
+    margin: auto;
+    height: 150px;
+    width: 20px;
+    background-color: black;
+}
+
+#container {
+    margin: auto;
+    padding-top: 25px;
+    height: 800px;
+    width: 300px;
+    background-color: black;
+    z-index: 0;
+    border-radius: 25px;
+}
+
+
+.light {
+    z-index: 1;
+    border-radius: 50%;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    }
+    
+    .red {
+    background-color: red;
+    }
+    
+    .yellow{
+    background-color: yellow;
+    }
+    
+    .green {
+    background-color: green;
+    }
+
+
+.selected  {
+    box-shadow:
+    0 0 60px 30px #fff, /* inner white */
+    0 0 100px 60px rgb(198, 255, 66), /* middle orange */
+    0 0 140px 90px rgb(249, 253, 2); /* outer yellow */
+}
+.selectedRed  {
+    box-shadow:
+    0 0 60px 30px #fff, /* inner white */
+    0 0 100px 60px rgb(255, 0, 149), /* middle orange */
+    0 0 140px 90px rgb(243, 2, 14); /* outer yellow */
+}
+.selectedGreen  {
+    box-shadow:
+    0 0 60px 30px #fff, /* inner white */
+    0 0 100px 60px rgb(198, 255, 66), /* middle orange */
+    0 0 140px 90px rgb(0, 177, 29); /* outer yellow */
+}
